@@ -57,9 +57,10 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "WhiteHyun/WhiteHyun",
+      repo: "WhiteHyun/Blog-Comments",
       "issue-term": "og:title",
       label: "💬 Utterances",
+      theme: "photon-dark",
     },
   },
   cusdis: {
