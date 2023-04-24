@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "WhiteHyun",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "iOS developer",
     bio: "끄적이며 지나온 나의 공간",
@@ -12,12 +12,12 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Flip Clock`,
-      href: "https://github.com/WhiteHyun/FlipClock"
-    },
-    {
       name: `편행`,
       href: "https://github.com/S-FAM/PyeonHaeng",
+    },
+    {
+      name: `Flip Clock`,
+      href: "https://github.com/WhiteHyun/FlipClock"
     },
   ],
   // blog setting (required)
