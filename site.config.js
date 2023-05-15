@@ -8,7 +8,7 @@ const CONFIG = {
     email: "whi7ehyun@gmail.com",
     linkedin: "",
     github: "WhiteHyun",
-    instagram: "WhiteHyun",
+    instagram: "Whi7eHyun",
   },
   projects: [
     {
@@ -23,7 +23,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Swift Footprint",
-    description: "",
+    description: "Swift 블로그",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
