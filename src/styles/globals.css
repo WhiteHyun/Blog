@@ -131,7 +131,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .switch-checkbox:checked + .switch-label {
-  background-color: #3f3f46;
+  background-color: @apply bg-slate-950;
 }
 
 .switch-checkbox:checked + .switch-label:before {
