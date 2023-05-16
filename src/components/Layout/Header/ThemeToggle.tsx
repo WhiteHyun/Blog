@@ -25,17 +25,21 @@ const ThemeToggle: React.FC<Props> = () => {
 
   if (CONFIG.blog.theme !== "auto") return null
   return (
-     <div className="switch">
-      <input
+    <label className="relative inline-flex items-center cursor-pointer">
+      <input 
         type="checkbox"
-        id="theme-switch"
-        className="switch-checkbox"
+        className="sr-only peer"
         checked={theme === "dark"}
         onChange={handleClick}
       />
-      <label htmlFor="theme-switch" className="switch-label"></label>
-    </div>
+      <div className="w-11 h-6 bg-gray-200 peer-checked:bg-gray-950 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all"></div>
+    </label>
   )
 }
 
 export default ThemeToggle
+
+{/* <label htmlFor="theme-switch" className={`bg-gray-200 dark:bg-gray-950
+absolute cursor-pointer inset-0 transition-all duration-300 rounded-3xl
+before:bg-white before:absolute  before:content-[attr(before)] before:h-5 before:w-5 before:left-1 before:bottom-1 before:transition-all before:duration-300 before:rounded-full ${theme === "dark" ? "before:translate-x-0" : "before:translate-x-6"}
+`}></label> */}
