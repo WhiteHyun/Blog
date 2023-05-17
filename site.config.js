@@ -18,7 +18,7 @@ const CONFIG = {
     },
     {
       name: `Flip Clock`,
-      href: "https://github.com/WhiteHyun/FlipClock"
+      href: "https://github.com/WhiteHyun/FlipClock",
     },
   ],
   // blog setting (required)
@@ -61,7 +61,6 @@ const CONFIG = {
       repo: "WhiteHyun/Blog-Comments",
       "issue-term": "og:title",
       label: "💬 Utterances",
-      theme: "photon-dark",
     },
   },
   cusdis: {
