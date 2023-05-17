@@ -35,6 +35,16 @@ class MyDocument extends Document {
               />
             </>
           )}
+
+          {/* Naver Search Advisor */}
+          {CONFIG.naverSearchAdvisor.enable === true && (
+            <>
+              <meta
+                name="naver-site-verification"
+                content={CONFIG.naverSearchAdvisor.config.siteVerification}
+              />
+            </>
+          )}
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
