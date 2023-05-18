@@ -27,8 +27,8 @@
       "@pages/*": ["src/pages/*"],
       "@styles/*": ["src/styles/*"],
       "@customTypes/*": ["src/types/*"]
-    }
+    },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "site.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "site.config.js", "index.d.ts"],
   "exclude": ["node_modules"]
 }
