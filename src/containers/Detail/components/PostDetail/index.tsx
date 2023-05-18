@@ -8,13 +8,11 @@ import CommentBox from "./CommentBox"
 import Category from "@components/Category"
 import Image from "next/image"
 import Link from "next/link"
-// import * as pri from "prismjs";
 
 const Code = dynamic(() =>
   import('react-notion-x/build/third-party/code').then(async (m) => {
     // additional prism syntaxes
 
-  
     await Promise.all([
       import('prismjs/components/prism-markup-templating.js'),
       import('prismjs/components/prism-markup.js'),
