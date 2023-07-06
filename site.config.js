@@ -25,7 +25,7 @@ const CONFIG = {
   blog: {
     title: "Swift Footprint",
     description: "Swift 블로그",
-    theme: "auto", // ['light', 'dark', 'auto']
+    theme: "light", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
